@@ -1,4 +1,3 @@
-
 import customtkinter as ctk
 import os
 from pathlib import Path
