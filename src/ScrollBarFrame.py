@@ -24,7 +24,5 @@ class ScrollBarMainFrame(ctk.CTkScrollableFrame):
             if self.command is not None:
                 button.configure(command=lambda: self.command())
             button.grid(row=len(self.button_list), column=0, pady=(0, 10), padx=5)
-            if button.is_clicked():
-                pass
             self.button_list.append(button)
         
